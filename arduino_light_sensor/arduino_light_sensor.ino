@@ -41,10 +41,10 @@ void loop(void) {
   u8x8.print(lightVal);
   u8x8.setCursor(0, 33);
   if (lightVal < minLight){
-    u8x8.println("too dark!!");
+    u8x8.println("Too dark!");
   }else if (lightVal > maxLight){
-    u8x8.println("too bright!!");
+    u8x8.println("Too bright!");
   } else {
-    u8x8.println("IDEAL :D");}
+    u8x8.println("IDEAL");}
   delay(300);
 } 
